@@ -20,20 +20,6 @@
       max-width: 100%;
   }
   
-  #muteButton{
-      cursor: pointer;
-      font-size: larger;
-      /* margin-top: 20%; */
-      height: 100%;
-  }
-  
-  .menuDiv {
-      width: 35px;
-      height: 12%;
-      background-color: white;
-      margin: 5px 15px;
-  }
-  
   nav {
       overflow: hidden;
       background-color: #333;
@@ -49,72 +35,6 @@
      text-decoration: none;
   }
   
-  /* The Modal (background) */
-  .modal {
-      display: none; /* Hidden by default */
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Sit on top */
-      padding-top: 5vh; /* Location of the box */
-      left: 0;
-      top: 0;
-      width: 100%; /* Full width */
-      height: 100%; 
-      background-color: rgb(0,0,0); /* Fallback color */
-      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  #modalTitleBar {
-      background-color: rgb(99, 94, 95);
-  }
-  
-  #modalTitle{
-      font-size: 1.5em;
-      margin: 1%;
-  }
-  
-  #eventColors{
-      background-color: rgb(160, 156, 156);
-      padding-left: 4%;
-      padding-top: 2%;
-      margin-top: 2%;
-  }
-  
-  .eventColorLine {
-      height: 4%;
-      width: 30%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: .75em;
-  }
-  
-  #eventColors input{
-      height: 70%;
-      border: none;
-  }
-  
-  .modal-content {
-      background-color: #385a70;
-      margin: auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 40%;
-      height: 80%;
-  }
-  
-  #modalBottom > p {
-      font-size: 0.8em;
-      display: inline;
-      float: left;
-      margin-top: 10%;
-  }
-  
-  #modalBottom > button {
-      float: right;
-      margin-top: 1%;
-      margin-right: 1%
-  }
-  
   #content {
       margin: 0 auto;
       height: 73vh;
@@ -128,60 +48,4 @@
       font-weight: bold;
       color: #0066ff;
       padding: 10px;
-  }
-  
-  #eventTableArea {
-      height: 75%;
-      overflow: hidden;
-  }
-  
-  div.dataTables_length,
-  div.dataTables_filter,
-  div.dataTables_paginate,
-  div.dataTables_info {
-      padding: 6px;
-      font-size: .75em;
-  }
-  
-  table.pretty td,
-  table.pretty th {
-      padding: 4px;
-      border: 1px solid black;
-  }
-  
-  table.pretty thead th {
-      padding: 4px;
-      border: 1px solid black;
-      text-align: center;
-      background: #66a9bd;
-  }
-   
-  table.pretty tbody td {
-      text-align: left;
-      background: #d5eaf0;
-      font-size: 0.75em;
-  }
-   
-  table.pretty tbody tr.odd td {
-      background: #bcd9e1;
-  }
-  
-  #spaceDiv {
-      height: 3%;
-  }
-  
-  #stateTableArea {
-      height: 30%;
-      overflow: hidden;
-  }
-  
-  #stateTable {
-      height: 50%;
-      font-size: 1em;
-  }
-  #stateTable tbody {
-      height: 100%;
-  }
-  #stateTable tr {
-      height: 100%
   }
